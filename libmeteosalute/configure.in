@@ -1,0 +1,18 @@
+AC_PREREQ(2.59)
+
+AC_INIT([libmeteosalute], [1.0], [graziano.giuliani@poste.it])
+
+AC_PROG_CXX
+AM_INIT_AUTOMAKE([1.9 foreign])
+
+AM_PROG_LIBTOOL
+
+AC_CHECK_HEADER([psychrometric.h],
+		,
+		[AC_MSG_ERROR([cannot find headers for libpsychrometric])])
+
+AC_CHECK_LIB(m, powf)
+AC_CHECK_LIB(psychrometric, dewpt)
+
+AC_CONFIG_FILES([Makefile])
+AC_OUTPUT

@@ -1,0 +1,16 @@
+##############
+
+Procedura per aggiungere nuove funzioni:
+
+
+*) Copiare new_variable.cpp in un nuovo file sorgente:
+      cp new_variable.cpp MYNEWVAR.cpp (MYNEWVAR sostituirlo con qualcosa di sensato)
+
+*) Modificare dentro il codice sorgente (nome funzione, argomenti, algoritmo)
+
+*) Aggiungere il prototipo della funzione in meteosalute.h prima di new_variable( );
+
+*) Aggiungere MYNEWVAR.cpp in Makefile.am prima di new_variable.cpp
+
+make e come root make install
+
