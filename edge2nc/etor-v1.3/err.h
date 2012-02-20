@@ -1,0 +1,27 @@
+/* err.h -- Err library prototypes, auto-generated */
+extern char * culprit(char *);
+struct tm;
+extern void err_action(int);
+extern char * err_id(int, char *);
+struct tm;
+extern void err_ignore(void);
+struct tm;
+extern int _error(char *, ...);
+struct label_t;
+struct _quad;
+struct fd_set;
+struct timeval;
+struct tm;
+struct sigaltstack;
+union sigval;
+struct sigevent_event;
+struct sigevent;
+struct timespec;
+struct uuprof;
+struct ctime_structure;
+extern void clrerr(void);
+extern char * strerr(int);
+extern void _serror(char *, char *, int, char *);
+void set_message_routines( void (*pre)(void), void (*post)(int, char *));
+struct tm;
+extern int _seterr(int, char *, ...);
