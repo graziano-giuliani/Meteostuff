@@ -1,5 +1,0 @@
-CHANGES for etor
-
-v1.3 (5/4/01)
-----------------
-1. Changed some header references for portability in radar.h and serror.c.

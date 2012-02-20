@@ -1,0 +1,5 @@
+As it is non free, download the ETOR library source from
+
+  ftp://trmm-fc.gsfc.nasa.gov/software/etor-v1.3.tgz
+
+and decompress it in this directory to compile the program.
